@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Real Estate Solutions - Sacramento Property Management & Investment</title>
+    <meta name="description" content="Professional property management services and real estate investment opportunities in Sacramento County. Serving Antelope, Citrus Heights, Folsom, and Elk Grove.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: #1a365d;
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #63b3ed;
+        }
+        
+        main {
+            margin-top: 60px;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #48bb78;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #38a169;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: #1a365d;
+        }
+        
+        section {
+            padding: 4rem 0;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #1a365d;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: #f7fafc;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card h3 {
+            color: #1a365d;
+            margin-bottom: 1rem;
+        }
+        
+        .features {
+            background: #f7fafc;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature {
+            text-align: center;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contact {
+            background: #1a365d;
+            color: white;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            color: white;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .contact-item {
+            padding: 1rem;
+        }
+        
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Professional Real Estate Solutions</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Your Trusted Partner in Sacramento Real Estate</h1>
+                <p>Professional property management services and exclusive investment opportunities</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="services" class="container">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Property Management</h3>
+                    <p>Full-service property management for residential properties. We handle everything from tenant screening to maintenance coordination, ensuring your investment is protected and profitable.</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                        <li>Tenant screening and placement</li>
+                        <li>Rent collection and enforcement</li>
+                        <li>24/7 maintenance coordination</li>
+                        <li>Financial reporting</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Investment Properties</h3>
+                    <p>Access exclusive off-market real estate investment opportunities. Perfect for fix-and-flip investors and buy-and-hold strategies.</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                        <li>Off-market wholesale deals</li>
+                        <li>Investment analysis</li>
+                        <li>Rehab cost estimates</li>
+                        <li>Quick closing capability</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Consulting Services</h3>
+                    <p>Strategic real estate investment consulting to help you build and optimize your property portfolio for maximum returns.</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                        <li>Portfolio analysis</li>
+                        <li>Market research</li>
+                        <li>Investment strategy</li>
+                        <li>Risk assessment</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="features">
+            <div class="container">
+                <h2>Why Choose Professional Real Estate Solutions</h2>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="feature-icon">🏡</div>
+                        <h3>Local Expertise</h3>
+                        <p>Deep knowledge of Sacramento County markets including Antelope, Citrus Heights, Folsom, and Elk Grove.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">💼</div>
+                        <h3>Professional Service</h3>
+                        <p>Licensed, insured, and committed to the highest standards of property management.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">📈</div>
+                        <h3>Proven Results</h3>
+                        <p>Track record of maximizing rental income and property values for our clients.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Direct Communication</h3>
+                        <p>Work directly with ownership for quick decisions and personalized service.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">Ready to maximize your real estate investment? Contact us today.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📍 Service Areas</h3>
+                        <p>Sacramento County<br>
+                        Antelope<br>
+                        Citrus Heights<br>
+                        Folsom<br>
+                        Elk Grove</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <p>info@professionalresolutions.com</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📞 Phone</h3>
+                        <p>Coming Soon</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">(Google Voice number pending)</p>
+                    </div>
+                </div>
+                <div style="margin-top: 3rem;">
+                    <a href="mailto:info@professionalresolutions.com" class="btn">Contact Us Today</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Professional Real Estate Solutions. All Rights Reserved.</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem;">Equal Housing Opportunity. Licensed and Insured.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
